@@ -24,3 +24,9 @@ img {
   text-align: center;
   padding: 0px 96px;
 }
+
+.tags-container {
+  padding: 56px 96px;
+  display: flex;
+  justify-content: space-around;
+}

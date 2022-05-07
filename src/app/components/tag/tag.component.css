@@ -1,0 +1,9 @@
+.tag {
+  background: rgba(35, 210, 182, 0.16);
+  border: 2px solid #23d2b6;
+  color: #23d2b6;
+  font-weight: 400;
+  font-size: 48px;
+  padding: 32px;
+  text-transform: uppercase;
+}
