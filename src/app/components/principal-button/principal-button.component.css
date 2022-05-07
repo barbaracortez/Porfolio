@@ -1,0 +1,9 @@
+.principal-button {
+  background: rgba(35, 210, 182, 0.16);
+  color: #23d2b6;
+  padding: 8px 72px;
+  border: 1px solid #23d2b6;
+  border-radius: 8px;
+  text-transform: uppercase; 
+  cursor: pointer;
+}
