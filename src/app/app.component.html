@@ -1,4 +1,4 @@
-<div class="principal-container">
+<div class="principal-container" href="section-1">
   <app-header></app-header>
   <div class="photo-container">
     <img src="../assets/img/photo.png" />
@@ -15,11 +15,48 @@
     </p>
   </div>
   <div class="tags-container">
-    <app-tag [tagLabel]="'html'" ></app-tag>
-    <app-tag [tagLabel]="'css'" ></app-tag>
-    <app-tag [tagLabel]="'javascript'" ></app-tag>
-    <app-tag [tagLabel]="'angular'" ></app-tag>
-    <app-tag [tagLabel]="'java'" ></app-tag>
-
+    <app-tag [tagLabel]="'html'"></app-tag>
+    <app-tag [tagLabel]="'css'"></app-tag>
+    <app-tag [tagLabel]="'javascript'"></app-tag>
+    <app-tag [tagLabel]="'angular'"></app-tag>
+    <app-tag [tagLabel]="'java'"></app-tag>
+  </div>
+</div>
+<div class="second-section" href="section-2">
+  <div>
+    <h1 class="title">curriculum vitae <a class="down-load" (click)="onDownloadClick()">link</a></h1>
+    <div class="row">
+      <div class="box-container">
+        <div class="box">
+          <h3 class="box-title">objetivo profesional</h3>
+          <p class="description">
+            Encontrar en mi primer trabajo en la tecnología IT, en una empresa
+            que se amolde a mis principios para sentirme parte de ella, y poder
+            ser el recurso que ayude a la misma a aportar creatividad,
+            soluciones, además poseo las características para entender las
+            necesidades de los clientes. Me considero autodidacta, adaptable,
+            con mucha fuerza de voluntad, una característica que me identifica
+            es mi capacidad en trabajo en equipo.
+          </p>
+        </div>
+        <div class="box"><h3 class="box-title">hobbies</h3></div>
+      </div>
+      <div class="box-container">
+        <div class="box"><h3 class="box-title">cursos</h3>
+        <p class="cursos-description">
+          Argentina Programa: 
+          <label>Módulo Uno: Introducción a desarrollo web y aplicaciones</label>
+          <label>Módulo Dos: Front End estático</label>
+          <label>Módulo Tres: Front End - Desarrollo Web Dinámico</label>
+          <label>Módulo Cuatro: Bases de datos</label>
+          <label>Módulo Cinco: POO - Buenas prácticas de programación </label>
+          <label>Módulo Seis: Backend - Java EE parte I </label>
+          <label>Módulo Siete: Backend - Java EE parte II</label>
+          <label>Módulo Ocho: Backend - Java Spring boot</label>
+          <label>Módulo Nueve: Dev Ops</label>
+        </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
